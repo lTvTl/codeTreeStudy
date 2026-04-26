@@ -11,7 +11,7 @@ def pegi(a, c):
     return print(a,'-', c,'=', a - c)
 
 def nanugi(a, c):
-    return print(a,'/', c,'=', a / c)
+    return print(a,'/', c,'=', a // c)
 
 def goup(a, c):
     return print(a,'*', c,'=', a * c)
