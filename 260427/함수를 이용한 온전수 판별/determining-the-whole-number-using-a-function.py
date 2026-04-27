@@ -13,7 +13,7 @@ def panvel(x):
 
 def sai(a, b):
     count = 0
-    for i in range(a+1, b):
+    for i in range(a, b+1):
         if panvel(i) == True:
             count += 1
     print(count)
