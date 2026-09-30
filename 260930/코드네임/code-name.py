@@ -14,5 +14,5 @@ for i in range(MAX_N):
     num = users[i]
     if num[1] < min[1]:
         min = users[i]
-codename, score = min   #초기화
+codename, score = min   #튜플 min값으로 입력
 print(codename, score)  #튜플 출력
